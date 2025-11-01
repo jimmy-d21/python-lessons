@@ -26,3 +26,8 @@ print(num_int + 1)
 
 # 6) Converting floats to int
 print(int(3.99))  # truncates
+
+
+# 7) Combining strings
+greet = "Hi" + " " + "there"
+print(greet)
