@@ -14,3 +14,8 @@ print(True and False, True or False, not True)
 # 4) Chained comparisons
 x = 5
 print(1 < x < 10)  # true if x between 1 and 10
+
+# 5) Assignment operators
+x = 10
+x += 5
+print(x)
