@@ -19,8 +19,11 @@ print("sum:", a + b)
 name = "Alice"
 print(f"Hello, {name}!")
 
-
 # 5) Variables are dynamically typed
 x = 10
 x = "now a string"
 print(x)
+
+# 6) Get user input (commented for non-interactive usage)
+# reply = input("Type something: ")
+# print("You typed:", reply)
