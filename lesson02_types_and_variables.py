@@ -6,3 +6,7 @@
 i = 42
 f = 3.14
 print(type(i), type(f))
+
+# 2) Strings
+s = "Python"
+print(s, len(s))
