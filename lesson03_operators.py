@@ -24,3 +24,6 @@ print(x)
 a = [1, 2]
 b = a
 print(a is b)  # True
+
+# 7) Membership (in)
+print("p" in "python")
