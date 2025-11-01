@@ -39,3 +39,6 @@ print(f"value={value!r}")
 # 9) Multiple assignment
 a, b, c = 1, 2.0, "three"
 print(a, b, c)
+
+# 10) Immutable vs mutable note (types are objects)
+# ints/strs are immutable; lists are mutable (we'll see in later lessons).
