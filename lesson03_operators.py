@@ -33,3 +33,7 @@ print(5 & 3, 5 | 3, 5 ^ 3)
 
 # 9) Operator precedence
 print(2 + 3 * 4)  # multiplication before addition
+
+# 10) Ternary conditional
+result = "yes" if 1 < 2 else "no"
+print(result)
