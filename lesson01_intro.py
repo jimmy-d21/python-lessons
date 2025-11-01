@@ -14,3 +14,7 @@ multi-line docstring used as a comment.
 a = 5
 b = 3
 print("sum:", a + b)
+
+# 4) Using f-strings
+name = "Alice"
+print(f"Hello, {name}!")
