@@ -36,3 +36,7 @@ print(x)
 
 # 9) Shebang for Unix (optional)
 # #!/usr/bin/env python3
+
+# 10) Simple tip: use meaningful variable names
+user_age = 30
+print("Age:", user_age)
