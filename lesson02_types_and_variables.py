@@ -10,3 +10,7 @@ print(type(i), type(f))
 # 2) Strings
 s = "Python"
 print(s, len(s))
+
+# 3) Booleans
+b = True
+print(b, type(b))
