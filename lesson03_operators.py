@@ -30,3 +30,6 @@ print("p" in "python")
 
 # 8) Bitwise operators (simple)
 print(5 & 3, 5 | 3, 5 ^ 3)
+
+# 9) Operator precedence
+print(2 + 3 * 4)  # multiplication before addition
