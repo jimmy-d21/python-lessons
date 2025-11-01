@@ -19,3 +19,8 @@ print(1 < x < 10)  # true if x between 1 and 10
 x = 10
 x += 5
 print(x)
+
+# 6) Identity (is)
+a = [1, 2]
+b = a
+print(a is b)  # True
