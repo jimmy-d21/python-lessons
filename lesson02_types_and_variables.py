@@ -31,3 +31,7 @@ print(int(3.99))  # truncates
 # 7) Combining strings
 greet = "Hi" + " " + "there"
 print(greet)
+
+# 8) f-strings and repr
+value = 7
+print(f"value={value!r}")
