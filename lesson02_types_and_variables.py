@@ -18,3 +18,8 @@ print(b, type(b))
 # 4) None
 n = None
 print(n is None)
+
+# 5) Type casting
+num = "123"
+num_int = int(num)
+print(num_int + 1)
