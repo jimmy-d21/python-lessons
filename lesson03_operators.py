@@ -10,3 +10,7 @@ print(5 > 2, 5 == 5, 3 != 4)
 
 # 3) Logical
 print(True and False, True or False, not True)
+
+# 4) Chained comparisons
+x = 5
+print(1 < x < 10)  # true if x between 1 and 10
