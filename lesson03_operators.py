@@ -4,3 +4,6 @@
 
 # 1) Arithmetic
 print(5 + 2, 5 - 2, 5 * 2, 5 / 2, 5 // 2, 5 % 2, 5 ** 2)
+
+# 2) Comparison
+print(5 > 2, 5 == 5, 3 != 4)
