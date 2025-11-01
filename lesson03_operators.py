@@ -27,3 +27,6 @@ print(a is b)  # True
 
 # 7) Membership (in)
 print("p" in "python")
+
+# 8) Bitwise operators (simple)
+print(5 & 3, 5 | 3, 5 ^ 3)
