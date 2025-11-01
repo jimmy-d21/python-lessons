@@ -27,3 +27,6 @@ print(x)
 # 6) Get user input (commented for non-interactive usage)
 # reply = input("Type something: ")
 # print("You typed:", reply)
+
+# 7) The REPL is great for quick experiments
+# Try running `python` in a terminal and type expressions directly.
