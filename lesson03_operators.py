@@ -7,3 +7,6 @@ print(5 + 2, 5 - 2, 5 * 2, 5 / 2, 5 // 2, 5 % 2, 5 ** 2)
 
 # 2) Comparison
 print(5 > 2, 5 == 5, 3 != 4)
+
+# 3) Logical
+print(True and False, True or False, not True)
