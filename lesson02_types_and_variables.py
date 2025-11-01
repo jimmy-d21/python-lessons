@@ -14,3 +14,7 @@ print(s, len(s))
 # 3) Booleans
 b = True
 print(b, type(b))
+
+# 4) None
+n = None
+print(n is None)
