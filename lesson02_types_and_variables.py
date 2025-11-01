@@ -35,3 +35,7 @@ print(greet)
 # 8) f-strings and repr
 value = 7
 print(f"value={value!r}")
+
+# 9) Multiple assignment
+a, b, c = 1, 2.0, "three"
+print(a, b, c)
