@@ -18,3 +18,9 @@ print("sum:", a + b)
 # 4) Using f-strings
 name = "Alice"
 print(f"Hello, {name}!")
+
+
+# 5) Variables are dynamically typed
+x = 10
+x = "now a string"
+print(x)
