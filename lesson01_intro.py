@@ -9,3 +9,8 @@ print("Hello, world!")  # basic output
 """This is a
 multi-line docstring used as a comment.
 """
+
+# 3) Basic arithmetic and print formatting
+a = 5
+b = 3
+print("sum:", a + b)
