@@ -33,3 +33,6 @@ print(x)
 
 # 8) Running a script from command line
 # Save this file and run: python lesson01_intro.py
+
+# 9) Shebang for Unix (optional)
+# #!/usr/bin/env python3
