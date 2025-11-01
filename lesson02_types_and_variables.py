@@ -23,3 +23,6 @@ print(n is None)
 num = "123"
 num_int = int(num)
 print(num_int + 1)
+
+# 6) Converting floats to int
+print(int(3.99))  # truncates
