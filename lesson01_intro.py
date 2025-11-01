@@ -30,3 +30,6 @@ print(x)
 
 # 7) The REPL is great for quick experiments
 # Try running `python` in a terminal and type expressions directly.
+
+# 8) Running a script from command line
+# Save this file and run: python lesson01_intro.py
