@@ -24,3 +24,9 @@ n = 0
 while n < 3:
     print(n)
 n += 1
+
+# 5) break
+for i in range(10):
+    if i == 3:
+        break
+    print(i)
