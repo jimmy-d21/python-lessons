@@ -57,3 +57,11 @@ def sq(x): return x*x
 
 
 print(sq(4))
+
+
+# 8) Higher-order function
+def apply(f, x):
+    return f(x)
+
+
+print(apply(lambda x: x+1, 4))
