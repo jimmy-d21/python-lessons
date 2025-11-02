@@ -42,3 +42,8 @@ for i in range(3):
     print(i)
 else:
     print("loop completed")
+
+# 8) nested loops
+for i in range(2):
+    for j in range(2):
+        print(i, j)
