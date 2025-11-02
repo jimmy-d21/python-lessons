@@ -50,3 +50,10 @@ def coords():
 
 x, y = coords()
 print(x, y)
+
+
+# 7) Lambda (anonymous function)
+def sq(x): return x*x
+
+
+print(sq(4))
