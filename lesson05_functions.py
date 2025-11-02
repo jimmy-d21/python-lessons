@@ -41,3 +41,12 @@ def show(**kwargs):
 
 
 show(a=1, b=2)
+
+
+# 6) Returning multiple values
+def coords():
+    return 10, 20
+
+
+x, y = coords()
+print(x, y)
