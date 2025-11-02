@@ -14,3 +14,7 @@ else:
 # 2) for over list
 for i in [1, 2, 3]:
     print(i)
+
+# 3) for with range
+for i in range(5):
+    print(i)
