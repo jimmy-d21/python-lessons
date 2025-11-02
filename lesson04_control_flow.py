@@ -18,3 +18,9 @@ for i in [1, 2, 3]:
 # 3) for with range
 for i in range(5):
     print(i)
+
+# 4) while loop
+n = 0
+while n < 3:
+    print(n)
+n += 1
