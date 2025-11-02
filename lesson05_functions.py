@@ -22,3 +22,14 @@ greet()
 # 3) Keyword arguments
 def info(name, age):
     print(name, age)
+
+
+info(age=30, name="Sam")
+
+
+# 4) Variable args (*args)
+def sum_all(*args):
+    return sum(args)
+
+
+print(sum_all(1, 2, 3))
