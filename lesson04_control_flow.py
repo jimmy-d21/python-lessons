@@ -51,3 +51,7 @@ for i in range(2):
 # 9) iterating with enumerate
 for idx, val in enumerate(["a", "b"]):
     print(idx, val)
+
+# 10) iterating with zip
+for x, y in zip([1, 2], ["a", "b"]):
+    print(x, y)
