@@ -1,0 +1,12 @@
+# Lesson 4 — Control Flow
+# File: lesson04_control_flow.py
+
+
+# 1) if/elif/else
+x = 10
+if x < 5:
+    print("small")
+elif x < 20:
+    print("medium")
+else:
+    print("large")
