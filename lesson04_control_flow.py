@@ -47,3 +47,7 @@ else:
 for i in range(2):
     for j in range(2):
         print(i, j)
+
+# 9) iterating with enumerate
+for idx, val in enumerate(["a", "b"]):
+    print(idx, val)
