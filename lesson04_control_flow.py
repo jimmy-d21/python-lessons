@@ -10,3 +10,7 @@ elif x < 20:
     print("medium")
 else:
     print("large")
+
+# 2) for over list
+for i in [1, 2, 3]:
+    print(i)
