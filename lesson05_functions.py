@@ -69,3 +69,11 @@ print(apply(lambda x: x+1, 4))
 
 # 9) Docstrings accessible via __doc__
 print(add.__doc__)
+
+
+# 10) Function annotations (optional)
+def f(x: int) -> int:
+    return x*2
+
+
+print(f(5))
