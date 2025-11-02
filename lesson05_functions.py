@@ -9,3 +9,11 @@ def add(a, b):
 
 
 print(add(2, 3))
+
+
+# 2) Default arguments
+def greet(name="friend"):
+    print(f"Hello, {name}")
+
+
+greet()
