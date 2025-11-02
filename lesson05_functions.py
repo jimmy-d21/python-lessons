@@ -17,3 +17,8 @@ def greet(name="friend"):
 
 
 greet()
+
+
+# 3) Keyword arguments
+def info(name, age):
+    print(name, age)
