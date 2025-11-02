@@ -33,3 +33,11 @@ def sum_all(*args):
 
 
 print(sum_all(1, 2, 3))
+
+
+# 5) Keyword args (**kwargs)
+def show(**kwargs):
+    print(kwargs)
+
+
+show(a=1, b=2)
