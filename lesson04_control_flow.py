@@ -36,3 +36,9 @@ for i in range(5):
     if i % 2 == 0:
         continue
 print("odd", i)
+
+# 7) else on loop (executes if loop wasn't broken)
+for i in range(3):
+    print(i)
+else:
+    print("loop completed")
