@@ -65,3 +65,7 @@ def apply(f, x):
 
 
 print(apply(lambda x: x+1, 4))
+
+
+# 9) Docstrings accessible via __doc__
+print(add.__doc__)
