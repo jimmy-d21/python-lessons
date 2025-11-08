@@ -39,3 +39,7 @@ b = a
 c = a.copy()
 b.append(3)
 print(a, c)
+
+# 10) Iterate
+for fruit in fruits:
+    print(f"I like {fruit}")
