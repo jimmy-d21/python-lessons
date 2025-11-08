@@ -23,3 +23,7 @@ print(fruits)
 # 6) Pop
 last = fruits.pop()
 print("popped", last)
+
+# 7) List comprehension
+nums = [x*x for x in range(5)]
+print(nums)
