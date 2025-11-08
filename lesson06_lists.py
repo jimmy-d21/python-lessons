@@ -14,3 +14,8 @@ print(fruits[0:2])
 fruits.append("date")
 fruits.extend(["elderberry", "fig"])
 print(fruits)
+
+# 5) Insert and remove
+fruits.insert(1, "blueberry")
+fruits.remove("banana")
+print(fruits)
