@@ -19,3 +19,7 @@ print(fruits)
 fruits.insert(1, "blueberry")
 fruits.remove("banana")
 print(fruits)
+
+# 6) Pop
+last = fruits.pop()
+print("popped", last)
