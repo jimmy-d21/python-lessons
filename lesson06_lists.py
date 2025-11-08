@@ -27,3 +27,8 @@ print("popped", last)
 # 7) List comprehension
 nums = [x*x for x in range(5)]
 print(nums)
+
+# 8) Sorting
+nums2 = [3, 1, 2]
+nums2.sort()
+print(nums2)
