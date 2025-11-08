@@ -6,3 +6,6 @@ fruits = ["apple", "banana", "cherry"]
 
 # 2) Indexing
 print(fruits[0], fruits[-1])
+
+# 3) Slicing
+print(fruits[0:2])
