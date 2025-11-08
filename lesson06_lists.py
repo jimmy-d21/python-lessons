@@ -32,3 +32,10 @@ print(nums)
 nums2 = [3, 1, 2]
 nums2.sort()
 print(nums2)
+
+# 9) Copy vs reference
+a = [1, 2]
+b = a
+c = a.copy()
+b.append(3)
+print(a, c)
