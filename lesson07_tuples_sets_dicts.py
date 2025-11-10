@@ -15,3 +15,7 @@ print(s)
 
 # 4) Set operations
 print({1, 2} & {2, 3}, {1, 2} | {2, 3})
+
+# 5) Dict creation
+d = {"name": "Alice", "age": 25}
+print(d["name"])
