@@ -26,3 +26,7 @@ print(d.get("city", "Unknown"))
 # 7) Iterating dict
 for k, v in d.items():
     print(k, v)
+
+# 8) Dict comprehension
+squares = {x: x*x for x in range(5)}
+print(squares)
