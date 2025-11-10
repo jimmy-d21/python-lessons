@@ -8,3 +8,7 @@ print(evens)
 # 2) Dict comprehension
 d = {x: x*x for x in range(5)}
 print(d)
+
+# 3) Set comprehension
+s = {x % 3 for x in range(10)}
+print(s)
