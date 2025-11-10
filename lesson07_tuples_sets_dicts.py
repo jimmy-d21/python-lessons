@@ -30,3 +30,8 @@ for k, v in d.items():
 # 8) Dict comprehension
 squares = {x: x*x for x in range(5)}
 print(squares)
+
+# 9) Packing/unpacking with * and **
+vals = [1, 2, 3]
+a, *rest = vals
+print(a, rest)
