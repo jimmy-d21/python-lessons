@@ -28,3 +28,7 @@ print(list(x for x in range(3)))
 # 8) Nested comprehension
 pairs = [(i, j) for i in range(3) for j in range(2)]
 print(pairs)
+
+# 9) Conditional expression in comprehension
+labels = ["even" if x % 2 == 0 else "odd" for x in range(5)]
+print(labels)
