@@ -16,3 +16,7 @@ print(s)
 # 4) Generator expression (lazy)
 g = (x*x for x in range(5))
 print(next(g))
+
+# 5) Using generator in for loop
+for val in (x+1 for x in range(3)):
+    print(val)
