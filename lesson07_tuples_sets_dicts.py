@@ -35,3 +35,7 @@ print(squares)
 vals = [1, 2, 3]
 a, *rest = vals
 print(a, rest)
+
+# 10) Use tuple as dict key
+coords = {(0, 0): "origin", (1, 2): "point"}
+print(coords[(0, 0)])
