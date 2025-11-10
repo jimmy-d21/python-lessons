@@ -12,3 +12,7 @@ print(d)
 # 3) Set comprehension
 s = {x % 3 for x in range(10)}
 print(s)
+
+# 4) Generator expression (lazy)
+g = (x*x for x in range(5))
+print(next(g))
