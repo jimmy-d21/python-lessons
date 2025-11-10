@@ -4,3 +4,8 @@
 # 1) Tuple (immutable)
 t = (1, 2, 3)
 print(t[0])
+
+
+# 2) Single-element tuple
+single = (5,)
+print(type(single))
