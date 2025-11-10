@@ -22,3 +22,7 @@ print(d["name"])
 
 # 6) Dict get with default
 print(d.get("city", "Unknown"))
+
+# 7) Iterating dict
+for k, v in d.items():
+    print(k, v)
