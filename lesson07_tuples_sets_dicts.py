@@ -12,3 +12,6 @@ print(type(single))
 # 3) Set (unique items)
 s = {1, 2, 2, 3}
 print(s)
+
+# 4) Set operations
+print({1, 2} & {2, 3}, {1, 2} | {2, 3})
