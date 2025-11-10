@@ -32,3 +32,6 @@ print(pairs)
 # 9) Conditional expression in comprehension
 labels = ["even" if x % 2 == 0 else "odd" for x in range(5)]
 print(labels)
+
+# 10) Use generator with sum
+print(sum(x for x in range(1000)))
