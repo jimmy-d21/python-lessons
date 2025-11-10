@@ -20,3 +20,7 @@ print(next(g))
 # 5) Using generator in for loop
 for val in (x+1 for x in range(3)):
     print(val)
+
+# 6) Memory note: generators use less memory
+# 7) Convert generator to list
+print(list(x for x in range(3)))
