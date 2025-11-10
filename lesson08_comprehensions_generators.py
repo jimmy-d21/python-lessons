@@ -24,3 +24,7 @@ for val in (x+1 for x in range(3)):
 # 6) Memory note: generators use less memory
 # 7) Convert generator to list
 print(list(x for x in range(3)))
+
+# 8) Nested comprehension
+pairs = [(i, j) for i in range(3) for j in range(2)]
+print(pairs)
