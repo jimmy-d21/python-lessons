@@ -44,3 +44,8 @@ for i in range(3):
     print(i)
 else:
     print("Loop finished")
+
+# Example 10: Loop through list with index
+colors = ["red", "green", "blue"]
+for index, color in enumerate(colors):
+    print(f"Index {index}: {color}")
