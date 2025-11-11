@@ -42,3 +42,11 @@ n = 5
 while n >= 0:
     print(n)
     n -= 1
+
+# Example 7: While with else
+a = 3
+while a > 0:
+    print(a)
+    a -= 1
+else:
+    print("Done!")
