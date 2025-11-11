@@ -54,3 +54,11 @@ else:
 # Example 8: Infinite loop example (be careful)
 # while True:
 #     print("Press Ctrl+C to stop")
+
+# Example 9: Summing numbers
+total = 0
+num = 1
+while num <= 5:
+    total += num
+    num += 1
+print("Total:", total)
