@@ -31,3 +31,14 @@ def multiply(a, b):
 
 
 print(multiply(3, 4))
+
+
+# function to check if number is even
+def is_even(num):
+    if num % 2 == 0:
+        print("Even number")
+    else:
+        print("Odd number")
+
+
+is_even(7)
