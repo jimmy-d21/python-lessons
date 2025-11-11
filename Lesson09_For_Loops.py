@@ -13,3 +13,7 @@ for fruit in fruits:
 # Example 3: Loop with custom start and stop
 for num in range(2, 7):
     print(num)
+
+# Example 4: Loop with step value
+for num in range(0, 10, 2):
+    print("Even number:", num)
