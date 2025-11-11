@@ -77,3 +77,10 @@ def factorial(n):
 
 
 print(factorial(5))
+
+
+# lambda function
+def square(x): return x ** 2
+
+
+print(square(8))
