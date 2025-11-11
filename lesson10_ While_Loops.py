@@ -62,3 +62,9 @@ while num <= 5:
     total += num
     num += 1
 print("Total:", total)
+
+# Example 10: Loop until condition met
+x = 0
+while x < 10:
+    print("x =", x)
+    x += 3
