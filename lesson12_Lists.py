@@ -25,3 +25,8 @@ print(fruits)  # Output: ['apple', 'mango', 'orange', 'cherry', 'grape']
 # Removing elements
 fruits.remove("cherry")
 print(fruits)  # Output: ['apple', 'mango', 'orange', 'grape']
+
+
+# Pop item
+fruits.pop(2)
+print(fruits)  # Output: ['apple', 'mango', 'grape']
