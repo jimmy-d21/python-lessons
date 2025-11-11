@@ -38,3 +38,9 @@ for i in range(10):
     if i % 2 == 0:
         continue
     print("Odd:", i)
+
+# Example 9: Loop with else
+for i in range(3):
+    print(i)
+else:
+    print("Loop finished")
