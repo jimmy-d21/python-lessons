@@ -9,3 +9,7 @@ for i in range(5):
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print("Fruit:", fruit)
+
+# Example 3: Loop with custom start and stop
+for num in range(2, 7):
+    print(num)
