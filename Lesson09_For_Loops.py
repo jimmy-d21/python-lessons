@@ -17,3 +17,7 @@ for num in range(2, 7):
 # Example 4: Loop with step value
 for num in range(0, 10, 2):
     print("Even number:", num)
+
+# Example 5: Loop through string
+for letter in "Python":
+    print(letter)
