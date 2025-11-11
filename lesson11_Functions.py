@@ -51,3 +51,11 @@ def greet_country(country="Tanzania"):
 
 greet_country()
 greet_country("Kenya")
+
+
+# function with multiple parameters
+def display_info(name, age, city):
+    print(f"Name: {name}, Age: {age}, City: {city}")
+
+
+display_info("Marjani", 21, "Msolwa")
