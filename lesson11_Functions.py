@@ -15,3 +15,11 @@ def greet_user(name):
 
 
 greet_user("Marjani")
+
+
+# Example 3
+def add(a, b):
+    print("Sum:", a + b)
+
+
+add(5, 3)
