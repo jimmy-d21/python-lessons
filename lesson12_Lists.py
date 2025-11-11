@@ -15,3 +15,8 @@ print(fruits)  # Output: ['apple', 'orange', 'cherry']
 # Adding elements
 fruits.append("grape")
 print(fruits)  # Output: ['apple', 'orange', 'cherry', 'grape']
+
+
+# Inserting at specific position
+fruits.insert(1, "mango")
+print(fruits)  # Output: ['apple', 'mango', 'orange', 'cherry', 'grape']
