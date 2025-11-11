@@ -50,3 +50,7 @@ while a > 0:
     a -= 1
 else:
     print("Done!")
+
+# Example 8: Infinite loop example (be careful)
+# while True:
+#     print("Press Ctrl+C to stop")
