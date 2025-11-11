@@ -36,3 +36,9 @@ while i < 5:
 #     if name == "exit":
 #         break
 #     print("Hello,", name)
+
+# Example 6: Countdown
+n = 5
+while n >= 0:
+    print(n)
+    n -= 1
