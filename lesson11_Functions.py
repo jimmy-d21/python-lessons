@@ -7,3 +7,11 @@ def greet():
 
 
 greet()
+
+
+# Example 2
+def greet_user(name):
+    print("Hello,", name)
+
+
+greet_user("Marjani")
