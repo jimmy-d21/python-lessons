@@ -26,3 +26,9 @@ for letter in "Python":
 for i in range(3):
     for j in range(2):
         print(f"i={i}, j={j}")
+
+# Example 7: Using break
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
