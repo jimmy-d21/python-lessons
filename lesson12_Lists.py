@@ -30,3 +30,8 @@ print(fruits)  # Output: ['apple', 'mango', 'orange', 'grape']
 # Pop item
 fruits.pop(2)
 print(fruits)  # Output: ['apple', 'mango', 'grape']
+
+
+# Loop through list
+for f in fruits:
+    print(f)  # Output: apple \n mango \n grape
