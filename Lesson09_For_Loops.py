@@ -21,3 +21,8 @@ for num in range(0, 10, 2):
 # Example 5: Loop through string
 for letter in "Python":
     print(letter)
+
+# Example 6: Nested loop
+for i in range(3):
+    for j in range(2):
+        print(f"i={i}, j={j}")
