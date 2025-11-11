@@ -59,3 +59,11 @@ def display_info(name, age, city):
 
 
 display_info("Marjani", 21, "Msolwa")
+
+
+# function returning multiple values
+def get_min_max(numbers):
+    return min(numbers), max(numbers)
+
+
+print(get_min_max([1, 5, 9, 2]))
