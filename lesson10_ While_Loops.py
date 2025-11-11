@@ -12,3 +12,11 @@ x = 10
 while x > 0:
     print(x)
     x -= 2
+
+# Example 3: Using break
+num = 1
+while True:
+    if num > 5:
+        break
+    print(num)
+    num += 1
