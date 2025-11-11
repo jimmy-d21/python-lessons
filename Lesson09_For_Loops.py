@@ -4,3 +4,8 @@
 # Example 1: Basic range loop
 for i in range(5):
     print("Count:", i)
+
+# Example 2: Loop through a list
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print("Fruit:", fruit)
