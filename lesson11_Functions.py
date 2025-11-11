@@ -42,3 +42,12 @@ def is_even(num):
 
 
 is_even(7)
+
+
+# function with default argument
+def greet_country(country="Tanzania"):
+    print("Hello from", country)
+
+
+greet_country()
+greet_country("Kenya")
