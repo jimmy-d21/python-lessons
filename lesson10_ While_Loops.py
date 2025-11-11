@@ -20,3 +20,11 @@ while True:
         break
     print(num)
     num += 1
+
+# Example 4: Using continue
+i = 0
+while i < 5:
+    i += 1
+    if i == 3:
+        continue
+    print(i)
