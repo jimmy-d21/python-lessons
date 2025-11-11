@@ -32,3 +32,9 @@ for i in range(10):
     if i == 5:
         break
     print(i)
+
+# Example 8: Using continue
+for i in range(10):
+    if i % 2 == 0:
+        continue
+    print("Odd:", i)
