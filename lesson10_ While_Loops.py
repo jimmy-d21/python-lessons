@@ -28,3 +28,11 @@ while i < 5:
     if i == 3:
         continue
     print(i)
+
+# Example 5: User input
+# Uncomment to use:
+# while True:
+#     name = input("Enter name (or 'exit'): ")
+#     if name == "exit":
+#         break
+#     print("Hello,", name)
