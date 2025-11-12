@@ -12,3 +12,7 @@ print(person)  # Output includes 'job': 'Engineer'
 # Updating value
 person["age"] = 23
 print(person["age"])  # Output: 23
+
+# Removing key
+del person["country"]
+print(person)  # Output: {'name': 'Marjani', 'age': 23, 'job': 'Engineer'}
