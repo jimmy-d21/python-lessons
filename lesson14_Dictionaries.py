@@ -24,3 +24,7 @@ for key in person:
 # Looping values
 for value in person.values():
     print(value)  # Output: Marjani \n 23 \n Engineer
+
+# Looping items
+for key, value in person.items():
+    print(key, value)  # Output: name Marjani etc.
