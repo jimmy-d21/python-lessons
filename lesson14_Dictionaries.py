@@ -28,3 +28,6 @@ for value in person.values():
 # Looping items
 for key, value in person.items():
     print(key, value)  # Output: name Marjani etc.
+
+# Using get() method
+print(person.get("name"))  # Output: Marjani
