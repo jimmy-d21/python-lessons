@@ -29,3 +29,7 @@ print("red" in colors)  # Output: True
 
 # Convert tuple to list
 print(list(colors))  # Output: ['red', 'green', 'blue']
+
+# Single element tuple
+single = ("hello",)
+print(type(single))  # Output: <class 'tuple'>
