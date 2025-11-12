@@ -20,3 +20,7 @@ print(person)  # Output: {'name': 'Marjani', 'age': 23, 'job': 'Engineer'}
 # Looping keys
 for key in person:
     print(key)  # Output: name \n age \n job
+
+# Looping values
+for value in person.values():
+    print(value)  # Output: Marjani \n 23 \n Engineer
