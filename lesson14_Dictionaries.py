@@ -8,3 +8,7 @@ print(person["name"])  # Output: Marjani
 # Adding key-value pair
 person["job"] = "Engineer"
 print(person)  # Output includes 'job': 'Engineer'
+
+# Updating value
+person["age"] = 23
+print(person["age"])  # Output: 23
