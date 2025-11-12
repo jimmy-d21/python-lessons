@@ -23,3 +23,6 @@ print(t1 + t2)  # Output: (1, 2, 3, 4)
 
 # Tuple repetition
 print(t1 * 3)  # Output: (1, 2, 1, 2, 1, 2)
+
+# Membership test
+print("red" in colors)  # Output: True
