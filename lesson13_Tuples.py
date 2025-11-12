@@ -26,3 +26,6 @@ print(t1 * 3)  # Output: (1, 2, 1, 2, 1, 2)
 
 # Membership test
 print("red" in colors)  # Output: True
+
+# Convert tuple to list
+print(list(colors))  # Output: ['red', 'green', 'blue']
