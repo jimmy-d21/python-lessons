@@ -11,3 +11,7 @@ print(len(colors))  # Output: 3
 # Nested tuple
 nested = (1, (2, 3), 4)
 print(nested[1][1])  # Output: 3
+
+# Loop through tuple
+for c in colors:
+    print(c)  # Output: red \n green \n blue
