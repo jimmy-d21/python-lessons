@@ -4,3 +4,6 @@ print(colors)  # Output: ('red', 'green', 'blue')
 
 # Accessing elements
 print(colors[1])  # Output: green
+
+# Tuple length
+print(len(colors))  # Output: 3
