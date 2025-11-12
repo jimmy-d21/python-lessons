@@ -31,3 +31,7 @@ for key, value in person.items():
 
 # Using get() method
 print(person.get("name"))  # Output: Marjani
+
+# Dictionary comprehension
+squares = {x: x**2 for x in range(4)}
+print(squares)  # Output: {0: 0, 1: 1, 2: 4, 3: 9}
