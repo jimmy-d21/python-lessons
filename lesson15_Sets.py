@@ -29,3 +29,7 @@ print(a.difference(b))
 
 # symmetric difference
 print(a.symmetric_difference(b))
+
+# clear set
+fruits.clear()
+print(fruits)
