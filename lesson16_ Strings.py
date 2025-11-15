@@ -19,3 +19,7 @@ print(text.replace("Py", "My"))
 
 # check if substring exists
 print("on" in text)
+
+# split string
+sentence = "I love Python"
+print(sentence.split())
