@@ -9,3 +9,7 @@ print(fruits)
 # add item
 fruits.add("orange")
 print(fruits)
+
+# remove item
+fruits.remove("banana")
+print(fruits)
