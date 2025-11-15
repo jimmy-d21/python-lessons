@@ -23,3 +23,7 @@ print("on" in text)
 # split string
 sentence = "I love Python"
 print(sentence.split())
+
+# join list into string
+words = ["I", "love", "coding"]
+print(" ".join(words))
