@@ -13,3 +13,6 @@ print(text.upper())
 
 # convert to lowercase
 print(text.lower())
+
+# replace text
+print(text.replace("Py", "My"))
