@@ -10,3 +10,6 @@ print(len(text))
 
 # convert to uppercase
 print(text.upper())
+
+# convert to lowercase
+print(text.lower())
