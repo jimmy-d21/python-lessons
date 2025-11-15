@@ -16,3 +16,6 @@ print(text.lower())
 
 # replace text
 print(text.replace("Py", "My"))
+
+# check if substring exists
+print("on" in text)
