@@ -23,3 +23,6 @@ print(a.union(b))
 
 # intersection of sets
 print(a.intersection(b))
+
+# difference of sets
+print(a.difference(b))
