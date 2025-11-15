@@ -13,3 +13,6 @@ print(fruits)
 # remove item
 fruits.remove("banana")
 print(fruits)
+
+# check membership
+print("apple" in fruits)
