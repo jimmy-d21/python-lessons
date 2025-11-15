@@ -26,3 +26,6 @@ print(a.intersection(b))
 
 # difference of sets
 print(a.difference(b))
+
+# symmetric difference
+print(a.symmetric_difference(b))
