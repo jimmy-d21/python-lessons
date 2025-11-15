@@ -5,3 +5,7 @@
 # create set
 fruits = {"apple", "banana", "cherry"}
 print(fruits)
+
+# add item
+fruits.add("orange")
+print(fruits)
