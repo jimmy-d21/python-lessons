@@ -33,3 +33,7 @@ print(a.symmetric_difference(b))
 # clear set
 fruits.clear()
 print(fruits)
+
+# convert list to set
+nums = [1, 1, 2, 3, 3, 4]
+print(set(nums))
