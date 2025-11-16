@@ -30,3 +30,7 @@ for i in range(3):
     print(i)
 else:
     print("Done!")  # Output: Done!
+
+# Using enumerate
+for index, value in enumerate(["a", "b", "c"]):
+    print(index, value)  # Output: 0 a, 1 b, 2 c
