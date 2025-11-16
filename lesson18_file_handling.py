@@ -14,3 +14,7 @@ with open("demo.txt", "a") as f:
 with open("demo.txt", "r") as f:
     for line in f:
         print(line.strip())  # Output: Each line printed
+
+# File Handling
+with open("demo.txt", "r") as f:
+    print(f.readlines())  # Output: ['Hello...\n', 'Second line...\n']
