@@ -34,3 +34,8 @@ except FileNotFoundError:
 
 # File Handling
 os.remove("demo.txt")  # Output: File deleted
+
+
+# File Handling
+with open("multi.txt", "w") as f:
+    f.writelines(["Line 1\n", "Line 2\n"])  # Output: 2 lines written
