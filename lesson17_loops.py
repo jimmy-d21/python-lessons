@@ -34,3 +34,9 @@ else:
 # Using enumerate
 for index, value in enumerate(["a", "b", "c"]):
     print(index, value)  # Output: 0 a, 1 b, 2 c
+
+# Using zip
+names = ["A", "B"]
+ages = [20, 21]
+for n, a in zip(names, ages):
+    print(n, a)  # Output: A 20, B 21
