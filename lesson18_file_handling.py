@@ -22,3 +22,6 @@ with open("demo.txt", "r") as f:
 # File Handling
 import os
 print(os.path.exists("demo.txt"))  # Output: True
+
+# File Handling
+print(os.path.getsize("demo.txt"))  # Output: (size in bytes)
