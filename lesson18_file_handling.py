@@ -31,3 +31,6 @@ try:
     open("missing.txt")
 except FileNotFoundError:
     print("File not found!")  # Output: File not found!
+
+# File Handling
+os.remove("demo.txt")  # Output: File deleted
