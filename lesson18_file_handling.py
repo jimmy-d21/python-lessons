@@ -5,3 +5,7 @@ with open("demo.txt", "w") as f:
 # File Handling
 with open("demo.txt", "r") as f:
     print(f.read())  # Output: Hello, File Handling!
+
+# File Handling
+with open("demo.txt", "a") as f:
+    f.write("\nSecond line added!")  # Output: Text appended
