@@ -19,3 +19,8 @@ for i in range(5):
     if i == 2:
         continue
     print(i)  # Output: 0 1 3 4
+
+# Nested loop
+for i in range(2):
+    for j in range(2):
+        print(i, j)  # Output: 0 0, 0 1, 1 0, 1 1
