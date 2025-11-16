@@ -18,3 +18,7 @@ with open("demo.txt", "r") as f:
 # File Handling
 with open("demo.txt", "r") as f:
     print(f.readlines())  # Output: ['Hello...\n', 'Second line...\n']
+
+# File Handling
+import os
+print(os.path.exists("demo.txt"))  # Output: True
