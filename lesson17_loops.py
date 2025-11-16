@@ -40,3 +40,7 @@ names = ["A", "B"]
 ages = [20, 21]
 for n, a in zip(names, ages):
     print(n, a)  # Output: A 20, B 21
+
+# Reverse loop
+for i in reversed(range(3)):
+    print(i)  # Output: 2 1 0
