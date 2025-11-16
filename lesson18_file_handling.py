@@ -9,3 +9,8 @@ with open("demo.txt", "r") as f:
 # File Handling
 with open("demo.txt", "a") as f:
     f.write("\nSecond line added!")  # Output: Text appended
+
+# File Handling
+with open("demo.txt", "r") as f:
+    for line in f:
+        print(line.strip())  # Output: Each line printed
