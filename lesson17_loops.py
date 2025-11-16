@@ -44,3 +44,8 @@ for n, a in zip(names, ages):
 # Reverse loop
 for i in reversed(range(3)):
     print(i)  # Output: 2 1 0
+
+# Loop through dictionary
+person = {"name": "Marjani", "age": 22}
+for k, v in person.items():
+    print(k, v)  # Output: name Marjani \n age 22
