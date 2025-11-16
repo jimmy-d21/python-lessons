@@ -25,3 +25,9 @@ print(os.path.exists("demo.txt"))  # Output: True
 
 # File Handling
 print(os.path.getsize("demo.txt"))  # Output: (size in bytes)
+
+# File Handling
+try:
+    open("missing.txt")
+except FileNotFoundError:
+    print("File not found!")  # Output: File not found!
