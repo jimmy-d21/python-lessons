@@ -69,3 +69,13 @@ class C(A, B):
 c = C()
 c.showA()  # Output: A
 c.showB()  # Output: B
+
+
+# Classes
+class Helper:
+    @staticmethod
+    def hello():
+        print("Hi!")  # Output: Hi!
+
+
+Helper.hello()
