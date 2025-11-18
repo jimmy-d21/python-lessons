@@ -87,3 +87,12 @@ class Student:
 
 
 print(Student.school)  # Output: Msolwa High
+
+
+# Classes
+class Num:
+    def __init__(self, n): self.n = n
+    def __eq__(self, other): return self.n == other.n
+
+
+print(Num(5) == Num(5))  # Output: True
