@@ -37,3 +37,17 @@ class Math:
 
 m = Math()
 print(m.add(5, 3))  # Output: 8
+
+
+# Classes
+class Animal:
+    def sound(self):
+        print("Some sound")
+
+
+class Dog(Animal):
+    def sound(self):
+        print("Bark!")  # Output: Bark!
+
+
+Dog().sound()
