@@ -27,3 +27,13 @@ class Car:
 
 mycar = Car("Toyota", 2023)
 print(mycar.brand, mycar.year)  # Output: Toyota 2023
+
+
+# Classes
+class Math:
+    def add(self, a, b):
+        return a + b
+
+
+m = Math()
+print(m.add(5, 3))  # Output: 8
