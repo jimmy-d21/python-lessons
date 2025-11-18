@@ -79,3 +79,11 @@ class Helper:
 
 
 Helper.hello()
+
+
+# Classes
+class Student:
+    school = "Msolwa High"
+
+
+print(Student.school)  # Output: Msolwa High
