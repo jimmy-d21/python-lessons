@@ -96,3 +96,12 @@ class Num:
 
 
 print(Num(5) == Num(5))  # Output: True
+
+
+# Classes
+class Book:
+    def __init__(self, title): self.title = title
+    def __str__(self): return f"Book: {self.title}"
+
+
+print(Book("Python Guide"))  # Output: Book: Python Guide
