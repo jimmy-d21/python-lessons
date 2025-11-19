@@ -44,3 +44,13 @@ try:
     raise MyError("Something wrong")
 except MyError as e:
     print(e)  # Output: Something wrong
+
+
+# Exception
+try:
+    try:
+        1/0
+    except:
+        print("Inner error")  # Output: Inner error
+except:
+    print("Outer error")
