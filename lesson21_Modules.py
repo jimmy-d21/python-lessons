@@ -1,4 +1,5 @@
 # Modules
+from math import sin, cos
 import math as m
 from math import pow
 import math
@@ -11,3 +12,7 @@ print(pow(2, 3))  # Output: 8.0
 
 # Modules
 print(m.pi)  # Output: 3.141592...
+
+
+# Modules
+print(sin(0), cos(0))  # Output: 0 1
