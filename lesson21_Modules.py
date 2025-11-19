@@ -1,4 +1,5 @@
 # Modules
+import random
 from math import sin, cos
 import math as m
 from math import pow
@@ -22,3 +23,7 @@ print(sin(0), cos(0))  # Output: 0 1
 # mymodule.py → def hello(): print("Hi!")
 # import mymodule
 # mymodule.hello()  # Output: Hi!
+
+
+# Modules
+print(random.randint(1, 5))  # Output: random 1-5
