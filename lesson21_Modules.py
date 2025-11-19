@@ -1,4 +1,5 @@
 # Modules
+import os
 import datetime
 import random
 from math import sin, cos
@@ -32,3 +33,7 @@ print(random.randint(1, 5))  # Output: random 1-5
 
 # Modules
 print(datetime.datetime.now())  # Output: current date time
+
+
+# Modules
+print(os.getcwd())  # Output: current directory
