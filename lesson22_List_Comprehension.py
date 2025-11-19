@@ -42,3 +42,9 @@ print([w[0] for w in ["dog", "cat", "goat"]])  # Output: ['d','c','g']
 # List Comprehension
 print([x if x % 2 == 0 else "odd" for x in range(5)])
 # Output: [0,'odd',2,'odd',4]
+
+
+# List Comprehension
+matrix = [[1, 2], [3, 4]]
+flat = [x for row in matrix for x in row]
+print(flat)  # Output: [1,2,3,4]
