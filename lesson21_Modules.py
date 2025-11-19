@@ -42,3 +42,7 @@ print(os.getcwd())  # Output: current directory
 
 # Modules
 print(sys.version)  # Output: Python version
+
+
+# Modules
+print(math.e, math.pi)  # Output: e PI
