@@ -1,4 +1,5 @@
 # Modules
+import datetime
 import random
 from math import sin, cos
 import math as m
@@ -27,3 +28,7 @@ print(sin(0), cos(0))  # Output: 0 1
 
 # Modules
 print(random.randint(1, 5))  # Output: random 1-5
+
+
+# Modules
+print(datetime.datetime.now())  # Output: current date time
