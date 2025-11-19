@@ -33,3 +33,7 @@ print(pairs)  # Output: [(0,0),(0,1),(1,0),(1,1)]
 # List Comprehension
 nums = [1, 2, 3]
 print([n*3 for n in nums])  # Output: [3,6,9]
+
+
+# List Comprehension
+print([w[0] for w in ["dog", "cat", "goat"]])  # Output: ['d','c','g']
