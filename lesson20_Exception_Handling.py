@@ -26,3 +26,10 @@ try:
     print("Inside try")  # Output: Inside try
 finally:
     print("Runs always")  # Output: Runs always
+
+
+# Exception
+try:
+    raise ValueError("Custom Error")
+except ValueError as e:
+    print(e)  # Output: Custom Error
