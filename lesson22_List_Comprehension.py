@@ -23,3 +23,8 @@ print(long)  # Output: ['apple','banana']
 # List Comprehension
 nums = ["1", "2", "3"]
 print([int(n) for n in nums])  # Output: [1,2,3]
+
+
+# List Comprehension
+pairs = [(x, y) for x in range(2) for y in range(2)]
+print(pairs)  # Output: [(0,0),(0,1),(1,0),(1,1)]
