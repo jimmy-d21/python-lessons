@@ -33,3 +33,14 @@ try:
     raise ValueError("Custom Error")
 except ValueError as e:
     print(e)  # Output: Custom Error
+
+
+# Exception
+class MyError(Exception):
+    pass
+
+
+try:
+    raise MyError("Something wrong")
+except MyError as e:
+    print(e)  # Output: Something wrong
