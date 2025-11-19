@@ -10,3 +10,12 @@ try:
     int("abc")
 except ValueError:
     print("Invalid number!")  # Output: Invalid number!
+
+
+# Exception
+try:
+    x = 5 / 1
+except:
+    print("Error!")
+else:
+    print("No error!")  # Output: No error!
