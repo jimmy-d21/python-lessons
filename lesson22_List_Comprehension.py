@@ -37,3 +37,8 @@ print([n*3 for n in nums])  # Output: [3,6,9]
 
 # List Comprehension
 print([w[0] for w in ["dog", "cat", "goat"]])  # Output: ['d','c','g']
+
+
+# List Comprehension
+print([x if x % 2 == 0 else "odd" for x in range(5)])
+# Output: [0,'odd',2,'odd',4]
