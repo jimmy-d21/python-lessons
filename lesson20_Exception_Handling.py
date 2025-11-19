@@ -19,3 +19,10 @@ except:
     print("Error!")
 else:
     print("No error!")  # Output: No error!
+
+
+# Exception
+try:
+    print("Inside try")  # Output: Inside try
+finally:
+    print("Runs always")  # Output: Runs always
