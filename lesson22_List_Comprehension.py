@@ -18,3 +18,8 @@ print(upper)  # Output: ['MARJANI','EILERT']
 words = ["apple", "an", "banana"]
 long = [w for w in words if len(w) > 2]
 print(long)  # Output: ['apple','banana']
+
+
+# List Comprehension
+nums = ["1", "2", "3"]
+print([int(n) for n in nums])  # Output: [1,2,3]
