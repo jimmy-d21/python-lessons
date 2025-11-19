@@ -60,3 +60,10 @@ except:
 x = 5
 assert x > 0, "x must be positive"
 print("Valid")  # Output: Valid
+
+
+# Exception
+try:
+    undefined
+except Exception as e:
+    print("Error:", e)  # Output: name 'undefined' is not defined
