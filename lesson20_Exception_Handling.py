@@ -67,3 +67,10 @@ try:
     undefined
 except Exception as e:
     print("Error:", e)  # Output: name 'undefined' is not defined
+
+
+# Exception
+try:
+    raise Exception("Manual error")
+except Exception as e:
+    print(e)  # Output: Manual error
