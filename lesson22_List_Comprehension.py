@@ -12,3 +12,9 @@ print(evens)  # Output: [0,2,4,6,8]
 names = ["marjani", "eilert"]
 upper = [n.upper() for n in names]
 print(upper)  # Output: ['MARJANI','EILERT']
+
+
+# List Comprehension
+words = ["apple", "an", "banana"]
+long = [w for w in words if len(w) > 2]
+print(long)  # Output: ['apple','banana']
