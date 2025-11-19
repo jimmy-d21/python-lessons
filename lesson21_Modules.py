@@ -1,4 +1,5 @@
 # Modules
+import sys
 import os
 import datetime
 import random
@@ -37,3 +38,7 @@ print(datetime.datetime.now())  # Output: current date time
 
 # Modules
 print(os.getcwd())  # Output: current directory
+
+
+# Modules
+print(sys.version)  # Output: Python version
